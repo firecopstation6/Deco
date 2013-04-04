@@ -259,7 +259,7 @@ function deco_get_recent_number($recentItems = null)
 
 function deco_display_theme_credit(){
 		$theme_credit=get_theme_option('Theme Credit');
-		$credit_text=' | <a href="https://github.com/ebellempire/Deco" title="Deco theme on Github">Deco theme</a> by <a href="http://erinbell.org" title="ErinBell.org">E. Bell</a>';
+		$credit_text=' | <a href="https://github.com/ebellempire/Deco" title="Deco theme on Github">Deco theme</a> by <a href="http://erinbell.org" title="ErinBell.org">E. Bell</a>, with <a href="https://github.com/firecopstation6/Deco">modifications</a> by <a href="http://jimmetzger.net/">Jim Metzger</a>';
 		if ($theme_credit == 'yes')return $credit_text;
 }
 /**
