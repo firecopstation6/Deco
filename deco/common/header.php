@@ -77,8 +77,8 @@ echo head_js();
 			</ul>
 			<!-- search --> 
 			<div id="search-container">
-			    <?php echo bp_simple_search(); ?>
 			    <?php echo link_to_item_search('Advanced Search'); ?>
+			    <?php echo bp_simple_search(); ?>
 			</div>
 		</div><!-- end primary-nav -->
 		<div id="header">
